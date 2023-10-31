@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myapi-demo
+  description: "Minha demonstração de API"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    # github.com/project-slug: VertigoVeeCode/myapi-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "veecode-platform"
+
+
+
